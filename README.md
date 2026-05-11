@@ -16,13 +16,20 @@ A robust, standalone Windows desktop application designed to streamline the uplo
 - **Local Offline Storage:** Fully integrated SQLite database (`survey.db`) for secure local data retention.
 - **Standalone Windows App:** Packaged as a `.exe` file, complete with a professional Windows Setup Installer.
 
-## 🛠️ Technologies & Frameworks Used
+## 🛠️ Technologies Used
 
-- <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python" width="20" height="20"/> **Programming Language:** Python 3
-- <img src="https://img.icons8.com/color/48/web-design.png" alt="NiceGUI Framework" width="20" height="20"/> **UI Framework:** [NiceGUI](https://nicegui.io/) (FastAPI & Vue.js based framework for Python)
-- <img src="https://img.icons8.com/fluency/48/sqlite.png" alt="SQLite" width="20" height="20"/> **Database:** SQLite3
-- <img src="https://img.icons8.com/color/48/console.png" alt="PyInstaller" width="20" height="20"/> **Executable Compilation:** PyInstaller (Compiled with custom icons)
-- <img src="https://img.icons8.com/color/48/install.png" alt="Inno Setup Installer" width="20" height="20"/> **Windows Installer:** Inno Setup Compiler 6 (Custom AppData installation for write-access)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NiceGUI](https://img.shields.io/badge/NiceGUI-UI_Framework-17b897?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-Compilation-00529B?style=for-the-badge)
+![Inno Setup](https://img.shields.io/badge/Inno_Setup-Windows_Installer-lightgrey?style=for-the-badge&logo=windows)
+
+- **Programming Language:** Python 3
+- **UI Framework:** [NiceGUI](https://nicegui.io/) (FastAPI & Vue.js based)
+- **Database:** SQLite3
+- **Executable Compilation:** PyInstaller (Compiled with custom icons)
+- **Windows Installer:** Inno Setup Compiler 6 (Custom AppData installation for write-access)
+- **Version Control:** Git & GitHub
 
 ## 🎥 Module Demonstrations & Walkthrough
 
