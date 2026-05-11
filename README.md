@@ -35,6 +35,9 @@ A robust, standalone Windows desktop application designed to streamline the uplo
 
 Below are the demonstrations of the 5 main pages. All demonstration videos are stored locally in the `upload/` directory of this repository.
 
+*login page*
+<img src="upload/login.png" width="100">
+
 ### 1. Home
 *Overview of the dashboard, main navigation, and system status.*
 <video src="upload/home_video.mp4" controls="controls" width="100%">
