@@ -1,7 +1,7 @@
 from nicegui import ui
 from database_password import update_password
 
-def create_settings_dialog() -> ui.Dialog:
+def create_settings_dialog():
     """
     Creates a NiceGUI settings dialog for changing the admin password.
     Includes fields for current password, new password, and confirmation.

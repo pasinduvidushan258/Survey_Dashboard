@@ -1,6 +1,17 @@
 from nicegui import ui
 
-def create_sidebar(settings_dialog, active_page: str) -> ui.LeftDrawer:
+import os
+import sys
+
+def get_image_path(image_name):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, image_name)
+
+def create_sidebar(settings_dialog, active_page: str):
     """
     Creates a collapsible sidebar drawer for the dashboard with navigation items and settings.
 
@@ -45,7 +56,7 @@ def create_sidebar(settings_dialog, active_page: str) -> ui.LeftDrawer:
             with ui.row().classes('w-full items-center no-wrap px-3 pt-4 menu-row'):
                 ui.button(icon='menu', on_click=toggle_mini)\
                     .props('flat color=white').classes('cursor-pointer')
-                ui.image('survey_logo.png').classes('w-30 hide-on-mini')
+                ui.image(get_image_path('survey_logo.png')).classes('w-30 hide-on-mini')
 
             ui.separator().classes('bg-white/10')
 

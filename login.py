@@ -12,6 +12,18 @@ import gr_em.gr_em_main as gr_em_main
 import database_management_main
 import st_sa.st_sa_main as st_sa_main
 
+
+import os
+import sys
+
+def get_image_path(image_name):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, image_name)
+
+
 # Initialize the database when the application starts
 setup_database()
 
@@ -58,7 +70,7 @@ def login_page():
         
         # Header section with logo and titles
         with ui.column().classes('items-center gap-0'):
-            ui.image('survey_logo.png').classes('w-48') 
+            ui.image(get_image_path('survey_logo.png')).classes('w-48') 
             ui.label('Welcome to Survey dashboard').classes('text-h3 font-bold text-center -mt-6').style('color: #E5C158;')
             ui.label('Centre for Strategic Planning and University Statistics').classes('text-subtitle1 text-white text-center')
 
@@ -103,5 +115,5 @@ def login_page():
 
 
 # --- Application Entry Point ---
-# Start the NiceGUI application server
-ui.run(title='Survey Dashboard', favicon='📊', port=8083)
+# Start the NiceGUI application server with specified configurations
+ui.run(title='Survey Dashboard', favicon='📊', port=8083, native=True, window_size=(1200, 800))
