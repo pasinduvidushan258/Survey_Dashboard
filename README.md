@@ -18,15 +18,15 @@ A robust, standalone Windows desktop application designed to streamline the uplo
 
 ## 🛠️ Technologies & Frameworks Used
 
-- **Programming Language:** Python 3
-- **UI Framework:** [NiceGUI](https://nicegui.io/) (FastAPI & Vue.js based framework for Python)
-- **Database:** SQLite3
-- **Executable Compilation:** PyInstaller (Compiled with custom icons and hidden consoles)
-- **Windows Installer:** Inno Setup Compiler 6 (With dynamic/modern wizard styles and AppData installation for write-access)
+- <img src="https://img.icons8.com/color/48/python--v1.png" alt="Python" width="20" height="20"/> **Programming Language:** Python 3
+- <img src="https://img.icons8.com/color/48/web-design.png" alt="NiceGUI Framework" width="20" height="20"/> **UI Framework:** [NiceGUI](https://nicegui.io/) (FastAPI & Vue.js based framework for Python)
+- <img src="https://img.icons8.com/fluency/48/sqlite.png" alt="SQLite" width="20" height="20"/> **Database:** SQLite3
+- <img src="https://img.icons8.com/color/48/console.png" alt="PyInstaller" width="20" height="20"/> **Executable Compilation:** PyInstaller (Compiled with custom icons)
+- <img src="https://img.icons8.com/color/48/install.png" alt="Inno Setup Installer" width="20" height="20"/> **Windows Installer:** Inno Setup Compiler 6 (Custom AppData installation for write-access)
 
 ## 🎥 Module Demonstrations & Walkthrough
 
-Below are the demonstrations of the 5 main pages. All demonstration videos are stored locally in the `upload/` directory.
+Below are the demonstrations of the 5 main pages. All demonstration videos are stored locally in the `upload/` directory of this repository.
 
 ### 1. Home
 *Overview of the dashboard, main navigation, and system status.*
